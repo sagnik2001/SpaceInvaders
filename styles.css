@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  overflow:hidden;
+  background-image: url("bgimage.png");
+  background-size: cover;
+}
+#board{
+  position: relative;
+  top:100px;
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  border: 2px solid white;
+  background-color: black;
+  overflow: hidden;
+}
+#jet{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("jetimage.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  bottom: 0px;
+}
+.rocks{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url("alien.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+ top: 0px;
+}
+#GameOver{
+  position: absolute;
+    right: 18%;
+    bottom: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+  color: rgb(224, 191, 159);
+  align-content: center;
+  justify-content: center;
+  visibility: hidden;
+}
+.bullets{
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  width: 20px;
+  height: 20px;
+  background-image: url("bullet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+#points{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    color: white
+}
+
+#highScore{
+    position: absolute;
+    top: 59px;
+    right: 160px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    color: white
+}
